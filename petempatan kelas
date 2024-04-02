@@ -1,0 +1,14 @@
+# Atur cara menentukan penempatan kelas
+
+nama = str("Masukan nama anda:")
+markah = float(input("Masukan markah anda"))
+
+# Ktegori kelas
+if markah <= 40:
+    print("Anda di tempatkan di kelas Dedikasi")
+elif markah <= 60:
+    print("Anda di tempatkan di kelas Cerdik")
+elif markah <= 80:
+    print("Anda di tempatkan di kelas Bijak")
+elif markah <= 80:
+    print("Anda di tempatkan di kelas Amanah")
